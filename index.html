@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>Player 1:</h1>
+					<h1 id='player-score'>0</h1>
+				</div>
+				<div class="col-md-6">
+					<h1>Computer Score</h1>
+					<h1 id='computer-score'>0</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<button id="throw-rock" class="btn btn-default" onclick="gamePlay('rock');">Throw Rock!</button>
+			</div>
+			<div class="col-md-4">
+				<button id="throw-paper" class="btn btn-default" onclick="gamePlay('paper')";>Throw Paper!</button>
+			</div>
+			<div class="col-md-4">
+				<button id="throw-scissors" class="btn btn-default" onclick="gamePlay('scissors')";>Throw Scissors!</button>
+			</div>
+		</div>
+		<br />
+		<br />
+		<button id="reset-game" class="btn btn-warning">Reset Game</button>
+		<br />
+		<div class="row">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Game Log</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="rps.js"></script>
+</body>
+</html>
+
